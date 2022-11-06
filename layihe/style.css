@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+body{
+    background-color: #f3b8df;
+}
+.container{
+   width:500px;
+   height:auto;
+   margin-left: 408px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+ border-radius: 10px;
+ border: 1px solid black;
+ background-color: white;
+
+}
+
+.yellow{
+    width: 500px;
+    height: 40px;
+    border-radius: 10px 10px 0 0;
+    background-color:#FFDC40;    
+}
+.title{
+    font-family: 'Roboto Slab', serif;
+font-size: 30px;
+font-weight: 900;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 7px;
+
+}
+.input{
+    height: 45px;
+    width: 336px;
+   margin-left: 70px;
+   margin-top: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-color: #939697;
+}
+.add{
+    display: flex;
+    flex-direction: row;
+}
+.x{
+    margin-left:-50px ;
+height: 30px;
+width: 30px;
+left: 770px;
+top: 405px;
+border-radius: 71px;
+background: white;
+color: #C4C4C4;
+}
+.x:hover{
+    background-color:#833AE0;
+}
+.add-btn{
+    height: 50px;
+width: 150px;
+margin-left: 175px;
+margin-top: 30px;
+border-radius: 71px;
+background-color: #833AE0;
+font-family: 'Roboto Slab', serif;
+font-size: 18px;
+line-height: 16px;
+border:rgb(171, 41, 204) ;
+color: aliceblue;
+}
+.adding{
+    margin-bottom: 20px;
+}
+.add-btn:hover{
+    background-color: rgb(184, 62, 184);
+}
+.plus{
+    border-radius: 71px;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    margin-left:-155px ;
+    border:rgb(182, 80, 212);
+    background-color: #9953F1; 
+    color:aliceblue ;
+}
+.plus:hover{
+    background-color: rgb(199, 86, 199);
+}
+.up{
+height: 50px;
+width: 50px;
+border-radius: 60%;
+border: white;
+}
+.up:hover{
+    opacity: 1 ;
+}
+.sort{
+    margin-left:380px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.down{
+
+height: 50px;
+width: 50px;
+border: white;
+border-radius: 60%;
+}
+.down:hover{
+    opacity: 0.5;
+}
+
+#tasks{
+    
+    border-radius: 10px;
+    width: 330px;
+    position: relative;
+    background-color: #ffffff;
+    padding: 20px 10px;
+    margin-left: 69px;
+    border: 1px solid #939697;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+   
+    cursor: pointer;
+    background-color: white;
+    height: 30px;
+    
+    padding: 5px 10px;
+    display: flex;
+}
+
+.task span{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.task button:hover{
+    background-color: rgb(199, 86, 199);
+}
+ .hide {
+    display: none;
+ }  
+
+.task button {margin-left:-50px ;
+height: 30px;
+width: 30px;
+left: 770px;
+top: 405px;
+border-radius: 71px;
+background: white;}
